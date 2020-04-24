@@ -44,7 +44,7 @@
     % calculate the coordinate u. We need it to place the measurement block. 
     \draw [->] (controller) -- node[name=u] {$u$} (system);
     \node [output, right of=system] (output) {};
-    \node [block, below of=u] (measurements) {$f(\theta|x)$};
+    \node [block, below of=u] (measurements) {$\frac{h(\theta(k) | x)p(x)}{p(\theta(k))}$};
 
     % Once the nodes are placed, connecting them is easy. 
     \draw [draw,->] (input) -- node {$r$} (sum);
@@ -57,7 +57,7 @@
 
 \begin{eqnarray*}
     \theta(k+1)&=&g(\theta(k),x)\\
-    \hat{y}(k)&=&f(\theta(k) | x)
+    \hat{y}&=&\frac{h(\theta(k) | x)p(x)}{p(\theta(k))}
 \end{eqnarray*}
 
 \end{document}
