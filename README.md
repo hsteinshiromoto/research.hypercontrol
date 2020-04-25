@@ -8,7 +8,7 @@ A control system can be defined as the interconnection of the following systems,
 
 In terms of a machine learning model, we want to find design a controller capable to updating the hyperparameters using the error as the feedback parameter.
 
-![Hyperparameter control system](https://github.com/hsteinshiromoto/research.hypercontrol/raw/master/docs/src/imgs/fig-hyperparameter_control_system.png.png "Hyperparameter control system")
+![Hyperparameter control system](https://github.com/hsteinshiromoto/research.hypercontrol/raw/master/docs/src/imgs/fig-hyperparameter_control_system.png "Hyperparameter control system")
 
 A model describing the update of the hyperparameters can be defined as
 
