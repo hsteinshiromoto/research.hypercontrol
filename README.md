@@ -12,10 +12,7 @@ In terms of a machine learning model, we want to find design a controller capabl
 
 A model describing the update of the hyperparameters can be defined as
 
-$$\left\{\begin{array}{rcl}
-    \theta(k+1)&=&g(\theta(k), u)\\
-    \hat{y}&=&\frac{f(\theta(k) | x)p(x)}{p(\theta(k))}
-    \end{array}\right.$$
+<p align="center"><img src="/tex/1dff1fd94e2aea21f422fec95f749916.svg?invert_in_darkmode&sanitize=true" align=middle width=205.43329619999997pt height=49.315569599999996pt/></p>
 
 # References
 
