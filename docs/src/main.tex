@@ -34,6 +34,8 @@
         node [near end] {$y_m$} (sum);
 \end{tikzpicture}
 
+\vspace{2em}
+
 \begin{tikzpicture}[auto, node distance=2cm,>=latex']
     % We start by placing the blocks
     \node [input, name=input] {};
@@ -55,9 +57,13 @@
         node [near end] {$\hat{y}$} (sum);
 \end{tikzpicture}
 
-\begin{eqnarray*}
+\vspace{2em}
+
+\[
+    \left\{\begin{array}{rcl}
     \theta(k+1)&=&g(\theta(k), u)\\
     \hat{y}&=&\frac{f(\theta(k) | x)p(x)}{p(\theta(k))}
-\end{eqnarray*}
+    \end{array}\right.
+\]
 
 \end{document}
