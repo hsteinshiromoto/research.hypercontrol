@@ -39,7 +39,7 @@
     \node [input, name=input] {};
     \node [sum, right of=input] (sum) {};
     \node [block, right of=sum] (controller) {Controller};
-    \node [block, right of=controller, node distance=3cm] (system) {$g(\theta, x)$};
+    \node [block, right of=controller, node distance=3cm] (system) {$g(\theta, u)$};
     % We draw an edge between the controller and system block to 
     % calculate the coordinate u. We need it to place the measurement block. 
     \draw [->] (controller) -- node[name=u] {$u$} (system);
@@ -56,8 +56,8 @@
 \end{tikzpicture}
 
 \begin{eqnarray*}
-    \theta(k+1)&=&g(\theta(k),x)\\
-    \hat{y}&=&\frac{h(\theta(k) | x)p(x)}{p(\theta(k))}
+    \theta(k+1)&=&g(\theta(k), u)\\
+    \hat{y}&=&\frac{f(\theta(k) | x)p(x)}{p(\theta(k))}
 \end{eqnarray*}
 
 \end{document}
