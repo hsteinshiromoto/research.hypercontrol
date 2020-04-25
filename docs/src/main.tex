@@ -47,7 +47,7 @@
     \node [block, below of=u] (measurements) {$\frac{h(\theta(k) | x)p(x)}{p(\theta(k))}$};
 
     % Once the nodes are placed, connecting them is easy. 
-    \draw [draw,->] (input) -- node {$r$} (sum);
+    \draw [draw,->] (input) -- node {$y$} (sum);
     \draw [->] (sum) -- node {$e$} (controller);
     \draw [->] (system) -- node [name=y] {$\theta$}(output);
     \draw [->] (y) |- (measurements);
