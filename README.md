@@ -17,3 +17,7 @@ A model describing the update of the hyperparameters can be defined as
 # References
 
 * Jia Wu, Xiu-Yun Chen, Hao Zhang, Li-Dong Xiong, Hang Lei, Hao Deng, "Hyperparameter Optimization for Machine Learning Models Based on Bayesian Optimization", Journal of Electronic Science and Technology, Volume 17, Issue 1, March 2019, Pages 26-40
+
+# Notes
+
+* Only modify the file `README.tex.md`, as TeXify will convert the TeX into images
