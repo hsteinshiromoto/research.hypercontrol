@@ -16,7 +16,7 @@ In the machine learning scenario, the blocks `System` and `Measurements` are des
 
 The representation of the control system diagram is shown below
 
-![Hyperparameter control system](https://github.com/hsteinshiromoto/research.hypercontrol/raw/master/docs/src/imgs/fig-hyperparameter_control_system.png "Hyperparameter control system")
+![Hyperparameter control system](https://github.com/hsteinshiromoto/research.hypercontrol/raw/master/docs/src/imgs/fig-hyperparameter_control_system.svg "Hyperparameter control system")
 
 A model describing the update of the hyperparameters can be defined as
 
