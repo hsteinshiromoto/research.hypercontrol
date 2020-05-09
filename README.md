@@ -16,16 +16,6 @@ In the machine learning scenario, the blocks `System` and `Measurements` are des
 
 The representation of the control system diagram is shown below
 
-\tikzstyle{block} = [draw, fill=blue!20, rectangle, 
-    minimum height=3em, minimum width=6em]
-\tikzstyle{sum} = [draw, fill=blue!20, circle, node distance=1cm]
-\tikzstyle{input} = [coordinate]
-\tikzstyle{output} = [coordinate]
-\tikzstyle{pinstyle} = [pin edge={to-,thin,black}]
-
-% The block diagram code is probably more verbose than necessary
-<p align="center"><img src="/tex/0777bbd11a40fab815973c96cdab746b.svg?invert_in_darkmode&sanitize=true" align=middle width=700.27463055pt height=134.79452084999997pt/></p>
-
 ![Hyperparameter control system](https://github.com/hsteinshiromoto/research.hypercontrol/raw/master/docs/src/imgs/fig-hyperparameter_control_system.svg "Hyperparameter control system")
 
 A model describing the update of the hyperparameters can be defined as
