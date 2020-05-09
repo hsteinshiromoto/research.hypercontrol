@@ -16,11 +16,21 @@ In the machine learning scenario, the blocks `System` and `Measurements` are des
 
 The representation of the control system diagram is shown below
 
+\tikzstyle{block} = [draw, fill=blue!20, rectangle, 
+    minimum height=3em, minimum width=6em]
+\tikzstyle{sum} = [draw, fill=blue!20, circle, node distance=1cm]
+\tikzstyle{input} = [coordinate]
+\tikzstyle{output} = [coordinate]
+\tikzstyle{pinstyle} = [pin edge={to-,thin,black}]
+
+% The block diagram code is probably more verbose than necessary
+<p align="center"><img src="/tex/0777bbd11a40fab815973c96cdab746b.svg?invert_in_darkmode&sanitize=true" align=middle width=700.27463055pt height=134.79452084999997pt/></p>
+
 ![Hyperparameter control system](https://github.com/hsteinshiromoto/research.hypercontrol/raw/master/docs/src/imgs/fig-hyperparameter_control_system.svg "Hyperparameter control system")
 
 A model describing the update of the hyperparameters can be defined as
 
-<p align="center"><img src="/tex/a0686153259e67c24ad0b474039b9cf7.svg?invert_in_darkmode&sanitize=true" align=middle width=223.84407704999995pt height=49.315569599999996pt/></p>
+<p align="center"><img src="/tex/6d631d1e0697a5d3dfc284b71f0cfdaf.svg?invert_in_darkmode&sanitize=true" align=middle width=216.53806845pt height=49.315569599999996pt/></p>
 
 where <img src="/tex/3cf4fbd05970446973fc3d9fa3fe3c41.svg?invert_in_darkmode&sanitize=true" align=middle width=8.430376349999989pt height=14.15524440000002pt/> is the function describing the evolution of the hyperparameters <img src="/tex/27e556cf3caa0673ac49a8f0de3c73ca.svg?invert_in_darkmode&sanitize=true" align=middle width=8.17352744999999pt height=22.831056599999986pt/>, <img src="/tex/190083ef7a1625fbc75f243cffb9c96d.svg?invert_in_darkmode&sanitize=true" align=middle width=9.81741584999999pt height=22.831056599999986pt/> is the posterior distribution, and <img src="/tex/2ec6e630f199f589a2402fdf3e0289d5.svg?invert_in_darkmode&sanitize=true" align=middle width=8.270567249999992pt height=14.15524440000002pt/> is the prior distribution.
 
