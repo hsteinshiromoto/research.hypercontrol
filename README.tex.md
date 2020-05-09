@@ -22,7 +22,7 @@ A model describing the update of the hyperparameters can be defined as
 
 $$\left\{\begin{array}{rcl}
     \theta(k+1)&=&g(\theta(k), u)\\
-    \hat{y}&=&\frac{f(\theta(k) | x)p(x)}{p(\theta(k))}];,
+    \hat{y}&=&\frac{f(\theta(k) | x)p(x)}{p(\theta(k))}\;,
     \end{array}\right.$$
 
 where $g$ is the function describing the evolution of the hyperparameters $\theta$, $f$ is the posterior distribution, and $p$ is the prior distribution.
